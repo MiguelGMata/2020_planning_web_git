@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Bienvenue sur mon planning de formation</title>
+    </head>
+    <body>
+        <header>
+            <h1>Bienvenue sur mon planning de formation</h1>
+        </header>
+        <article>
+            <p>
+                SQL (sigle de Structured Query Language, en français langage de requête structurée) est un langage informatique normalisé servant à exploiter des bases de données relationnelles. La partie langage de manipulation des données de SQL permet de rechercher, d'ajouter, de modifier ou de supprimer des données dans les bases de données relationnelles.
+
+Outre le langage de manipulation des données, la partie langage de définition des données permet de créer et de modifier l'organisation des données dans la base de données, la partie langage de contrôle de transaction permet de commencer et de terminer des transactions, et la partie langage de contrôle des données permet d'autoriser ou d'interdire l'accès à certaines données à certaines personnes.
+
+Créé en 1974, normalisé depuis 1986, le langage est reconnu par la grande majorité des systèmes de gestion de bases de données relationnelles (abrégé SGBDR) du marché.
+            </p>
+        </article>
+        <article>
+            <ul>	
+                <li>Historique</li>
+                <li>Utilisation</li>
+                <li>Syntaxe générale</li>
+                <li>Exemples de code</li>
+                <li>Manipulation de données</li>
+                <li>NULL et la logique ternaire</li>
+                <li>Langages apparentés</li>
+                <li>Langages concurrents</li>
+                <li>Alternatives</li>
+            </ul>
+        </article>
+        <article>
+            <p>
+                Recherche<br>
+                SELECT nom, service<br>
+                FROM   employe<br>
+                WHERE  statut = 'stagiaire'<br>
+                ORDER  BY nom;<br>
+                procédure stockée<br>
+                 DECLARE N INTEGER;<br>
+                 SET N = 1;<br>
+                 FOR C <br>
+                 AS C_USR_MISE_A_JOUR<br> 
+                    CURSOR FOR <br>
+                       SELECT USR_ID, USR_NOM<br>
+                       FROM   T_UTILISATEUR_USR<br>
+                       ORDER  BY USR_ID<br>
+                    FOR UPDATE OF USR_NOM<br>
+                 DO<br>
+                    IF MOD(N, 2) = 0<br>
+                    THEN<br>
+                       UPDATE T_UTILISATEUR_USR<br>
+            </p>
+        </article>
+        <footer>
+            <nom>
+                <h3>Nelson Miguel Garcia Mata</h3>
+            </nom>
+        </footer>
+    </body>
+</html>
